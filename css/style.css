@@ -138,7 +138,7 @@ section.fade-out {
     width: 100%;
     text-align: center;
 }
-section-title h2 {
+.section-title h2 {
     font-size: 40px;
     text-transform: capitalize;
 
