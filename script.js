@@ -121,5 +121,15 @@ animate();
 
 //about text typing   
 //
-var i = 0
-var textEffect1 = ""
+
+// toggle dark theme 
+var iconn = document.getElementById("iconn");
+iconn.onclick = function() {
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        iconn.src = "img/sunny.png"
+    }else {
+        iconn.src = "img/moon.png";
+    }
+
+};

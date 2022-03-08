@@ -10,19 +10,19 @@ font
 
 
 :root{
-    --main-color: #298526  ;
+    --main-color: #3fba26  ;
     --blue: #0000ff;
     --blue-dark: #18293c;
     --orange: #ffa500;
     --green-yellow: #cddc39;
-    --pink-light: #3edd3e;
-    --cyan-light: #5280e2;
+    --pink-light: #0ceb38;
+    --cyan-light: #6f52e2;
     --white: #ffffff;
     --white-alpha-40: rgba(255,255,255,0.40);
     --white-alpha-25: rgba(255,255,255,0.25);
     --backdrop-filter-blur: blur(5px);
-
-
+    --dark-theme: #070707;
+    
 }
 
 
@@ -50,6 +50,11 @@ body {
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
     padding: 35px 15px;
+
+}
+.dark-theme {
+
+    background-image: linear-gradient(to bottom right , var(--dark-theme), var(--cyan-light));
 
 }
 body.hide-scrolling {
@@ -369,6 +374,13 @@ button {
 .header.active .container {
     max-width: 1200px;
     margin: auto;
+
+}
+.darktheme {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 .header .nav-toggler {
     width: 50px;
