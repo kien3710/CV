@@ -101,4 +101,25 @@ function portfolioItemDetails(porfolioItem){
 
 }
 
+// typing text js
 
+
+
+var x = 0;
+var textEffect = 'Nguyen Trung Kien';
+var container = document.getElementById("effect");
+
+function animate(){
+    if (x < textEffect.length){
+        container.innerHTML += textEffect.charAt(x);
+        x++;
+        setTimeout(animate, 120)
+    }
+}
+animate();
+
+
+//about text typing   
+//
+var i = 0
+var textEffect1 = ""

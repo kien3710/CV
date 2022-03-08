@@ -518,6 +518,14 @@ button {
 .home-text h1 {
     font-size: 50px;
     text-transform: capitalize;
+    position: relative;
+    
+}
+
+@keyframes move {
+    100% {
+        left: 100%;
+    }
 }
 .home-text h2 {
     font-size: 20px;
@@ -549,11 +557,11 @@ button {
     padding: 0 15px;
 }
 .about-img .img-box {
-   background-color: var(--white-alpha-25);
-   max-width: 380px;
-   border: 1px solid var(--white-alpha-40);
-   margin: auto;
-   border-radius: 10px;
+    background-color: var(--white-alpha-25);
+    max-width: 380px;
+    border: 1px solid var(--white-alpha-40);
+    margin: auto;
+    border-radius: 10px;
 }
 .about-img .img-box img {
     width: 100%;
@@ -571,7 +579,7 @@ button {
 }
 .about-text .skill-item {
     background-color: var(--white-alpha-25);
-   border-radius: 1px solid var(--white-alpha-40);
+    border-radius: 1px solid var(--white-alpha-40);
     padding: 5px 15px;
     text-transform: capitalize;
     margin: 0 10px 10px 0;
@@ -583,12 +591,12 @@ button {
     margin-top: 20px;
 }
 .about-tab .tab-item {
-     padding: 2px 0;
-     background-color: transparent;
-     border: none;
-     text-transform: capitalize;
-     display: inline-block;
-     color: var(--blue-dark);
+    padding: 2px 0;
+    background-color: transparent;
+    border: none;
+    text-transform: capitalize;
+    display: inline-block;
+    color: var(--blue-dark);
      font-size: 20px;
      cursor: pointer;
      font-weight: 500;
