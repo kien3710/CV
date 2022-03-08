@@ -118,11 +118,7 @@ function animate(){
 }
 animate();
 
-
-//about text typing   
-//
-
-// toggle dark theme 
+//toggle dark 
 var iconn = document.getElementById("iconn");
 iconn.onclick = function() {
     document.body.classList.toggle("dark-theme");
