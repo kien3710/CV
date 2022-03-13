@@ -383,6 +383,7 @@ button {
     cursor: pointer;
     font-size: 3em;
 }
+
 .darktheme img:hover {
     font-size: 1em;
     filter: drop-shadow(--main-color);
